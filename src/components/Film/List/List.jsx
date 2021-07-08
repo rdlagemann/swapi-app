@@ -4,8 +4,9 @@ import { Ul, Li } from "../../_ui/List";
 
 const onClickFilm = (film) => window.alert(film.title);
 
-FilmList.propTypes = {};
-
+/**
+ * Loads a list of film titles from SWApi and implements `window.alert` on click
+ */
 function FilmList() {
   const { films, isLoading, error } = useFilmList();
   const isEmpty = !error && films && !films?.results?.length;

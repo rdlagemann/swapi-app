@@ -6,7 +6,7 @@ import "@testing-library/jest-dom";
 import { render, waitFor } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { cache } from "swr";
-import { server } from "../mocks/server";
+import { server } from "./mocks/server";
 import DataFetchingConfig from "./components/DataFetchingConfig/DataFetchingConfig";
 import store from "./store";
 

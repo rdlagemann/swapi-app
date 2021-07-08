@@ -1,5 +1,5 @@
 import { rest } from "msw";
-import { SWAPI_BASE_URL } from "../src/utils/apis/sw.api";
+import { SWAPI_BASE_URL } from "../utils/apis/sw.api";
 import films from "./fixtures/films.fixtures";
 
 export const routes = {

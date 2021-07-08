@@ -13,7 +13,7 @@ const ITEMS = [
   "Last item description",
 ];
 
-export const WithContent = () => (
+export const DefaultView = () => (
   <Ul>
     {ITEMS.map((text, i) => (
       <Li key={i}>{text}</Li>

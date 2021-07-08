@@ -1,9 +1,9 @@
 import { screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { rest } from "msw";
-import films, { emptyFilms } from "../../../../mocks/fixtures/films.fixtures";
-import { routes } from "../../../../mocks/handlers";
-import { server } from "../../../../mocks/server";
+import films, { emptyFilms } from "../../../mocks/fixtures/films.fixtures";
+import { routes } from "../../../mocks/handlers";
+import { server } from "../../../mocks/server";
 import { render } from "../../../setupTests";
 import List from "./List";
 
