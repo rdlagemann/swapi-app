@@ -16,6 +16,11 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  options: {
+    storySort: {
+      order: ['ui'],
+    },
+  },
 };
 
 export const decorators = [

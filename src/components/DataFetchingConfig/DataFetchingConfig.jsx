@@ -3,6 +3,8 @@ import axios from "axios";
 
 const DEFAULT_VALUE = {
   fetcher: (...args) => axios.get(...args).then((res) => res.data),
+  revalidateOnFocus: false,
+  revalidateOnReconnect: false,
 };
 
 export default function DataFetchingConfig({ children, value = {} }) {
